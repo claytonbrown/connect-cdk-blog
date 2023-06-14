@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+connect-cdk = {editable = true, file = "file:///Users/clbrown/Code/claytonbrown/uberiot/cdk-connect"}
+"aws-cdk-lib" = ">=2.68"
+"constructs" = ">=10.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
